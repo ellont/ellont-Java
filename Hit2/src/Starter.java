@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class Starter {
-    private int[] locationCells;
     private ArrayList<Integer> locationList = new ArrayList<>();
     private int body;
 
