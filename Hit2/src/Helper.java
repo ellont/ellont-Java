@@ -7,12 +7,4 @@ public class Helper {
         return scanner.nextInt();
     }
 
-    public void printArr (int[] newLoca)
-    {
-        for (int x = 0; x < newLoca.length; x++)
-        {
-            System.out.println(newLoca[x]);
-        }
-
-    }
 }
