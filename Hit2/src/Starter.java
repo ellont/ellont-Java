@@ -16,15 +16,9 @@ public class Starter {
     public ArrayList<Integer> getList(){
         return locationList;
     }
-    // public void setLocations(int[] locs)
-    // {
-    //     locationCells = locs;
-    // }
 
-    // public int[] getLocations() {
-    //     return locationCells;
-    // }
-
+    //check if locationList contains guess, print hit if yes
+    //then consolidate the locationList by removing the hit number
     public String checkHit(int guess)
     {
         String result = "miss";
@@ -41,29 +35,5 @@ public class Starter {
             boolean win = locationList.isEmpty();
             return win;
         }
-
-    //consolidate the new location arrayList
-    // public void newLoc(String result,int guess)
-    // {
-    //     if (result == "hit")
-    //     {
-    //         int[] newLocation = new int[getLocations().length-1];
-    //         int index = 0;
-    //         for (int i = 0; i < locationCells.length; i++)
-    //         {
-    //             if (guess != locationCells[i])
-    //             {
-    //                 newLocation[index] = locationCells[i];
-    //                 index++;
-    //             }
-    //         }
-    //         setLocations(newLocation);
-    //         getLocations();
-    //     }
-
-    // }
-
-
-
 
 }
